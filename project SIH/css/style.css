@@ -1,0 +1,268 @@
+.main-header {
+  padding: 2rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: 9.6rem;
+  padding: 2rem 4.8rem;
+  background-color: #eae4fe;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 6.4rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #8e53eb;
+}
+
+.main-logo {
+  font-size: 2rem;
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  background-color: #8e53eb;
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 1.6rem 3.2rem;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+/* Section Hero */
+.section-hero {
+  background-color: #fff;
+  padding: 9.6rem 0 9.6rem 0;
+  background-color: #eae4fe;
+}
+
+.hero {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+.heading-first {
+  font-weight: 300;
+  font-style: italic;
+}
+.heading-second {
+  font-weight: 400;
+}
+.heading-third {
+  font-weight: 700;
+}
+
+.hero-img {
+  width: 100%;
+  transform: scale(1.1);
+}
+
+.rocket {
+  position: absolute;
+  bottom: -1rem;
+  left: 44rem;
+}
+
+/* Choose page */
+.login-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.login-img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-35%, 0);
+}
+.btn-prof {
+  font-size: 2.8rem;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #d7d9ff;
+  padding: 3.2rem 6.4rem;
+  border-radius: 40px;
+  color: #001f3f;
+  box-shadow: 0 8px 8px rgb(0, 0, 0, 0.25);
+  position: absolute;
+  bottom: 37%;
+  right: 18%;
+  transition: all 0.15s;
+}
+.btn-prof:hover {
+  /* background-color: #c2c3e6; */
+  box-shadow: 0 12px 12px rgb(0, 0, 0, 0.3);
+}
+.btn-student {
+  font-size: 2.8rem;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #babeff;
+  padding: 3.2rem 6.4rem;
+  border-radius: 40px;
+  color: #001f3f;
+  box-shadow: 0 8px 8px rgb(0, 0, 0, 0.25);
+  position: absolute;
+  bottom: 37%;
+  left: 18%;
+  transition: all 0.15s;
+}
+.btn-student:hover {
+  /* background-color: #c2c3e6; */
+  box-shadow: 0 12px 12px rgb(0, 0, 0, 0.3);
+}
+
+.student-sec {
+  height: 100vh;
+  background-color: #d7d9ff;
+}
+
+.student-prof {
+  height: 100vh;
+  background-color: #b7c2ff;
+}
+.ab-logo {
+  position: absolute;
+  left: 2rem;
+  top: 3.5rem;
+  font-size: 2.8rem;
+  text-decoration: none;
+}
+
+.ab-nav {
+  position: absolute;
+  top: 2rem;
+  left: 53%;
+  transform: translate(-50%, 50%);
+}
+.ab-nav-items:link,
+.ab-nav-items:visited {
+  font-size: 2.4rem;
+  text-decoration: none;
+  margin-right: 6.4rem;
+  transition: all 0.3s;
+}
+.ab-nav-items:hover,
+.ab-nav-items:active {
+  color: #001f3f;
+}
+
+.circle-1 {
+  position: absolute;
+  top: 20%;
+  right: 20%;
+}
+
+.circle-2 {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+.semi {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.poly {
+  position: absolute;
+  bottom: 10%;
+  right: 37%;
+}
+
+.small-c {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+.tri {
+  position: absolute;
+  bottom: 17%;
+  left: 5%;
+}
+
+/* Projects */
+.section-search {
+  width: 130rem;
+  position: absolute;
+  top: 17%;
+  right: 5rem;
+}
+.form-box {
+  margin: 0 auto;
+}
+.input-bar {
+  font-size: 1.8rem;
+  border-radius: 9px;
+  border: none;
+  width: 74rem;
+  height: 6.4rem;
+}
+
+.search-btn,
+.search-btn:link,
+.search-btn:visited {
+  transform: translateX(-105%);
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.2rem 3.2rem;
+  border-radius: 9px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+  border: 2px solid #babeff;
+}
+
+.search-btn:link,
+.search-btn:visited {
+  /* background-color: #e67e22; */
+
+  /* color: #fff; */
+  box-shadow: 0 0 0 3px #babeff inset;
+}
+
+.search-btn:hover,
+.search-btn:active {
+  /* background-color: #cf711f; */
+}
+
+.projects-box {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.heading-project {
+  font-size: 4.8rem;
+}
+.projects-text {
+  font-size: 1.8rem;
+}

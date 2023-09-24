@@ -1,0 +1,53 @@
+/* 
+colors
+#EAE4FE
+#8E53EB
+#323258
+#23233F
+
+#6384FF
+#B7C2FF
+#564AF5
+#D7D9FF
+#ADABFB
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  background-color: #eae4fe;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #23233f;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 7.4rem;
+  line-height: 1.15;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
